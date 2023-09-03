@@ -21,5 +21,5 @@ cd /tmp && git clone https://github.com/khromenokroman/lib_aio_write && cd lib_a
 mkdir build && cd build && cmake .. && cmake --build .
 ```
 
-### Поумолчанию программа будет копировать файл /tmp/in.dat в /tmp/out.dat
-### файл in.dat можно создать например dd
+Поумолчанию программа будет копировать файл /tmp/in.dat в /tmp/out.dat
+файл in.dat можно создать например dd
