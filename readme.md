@@ -17,6 +17,9 @@ sudo cp ./build/lib/libgtest* /usr/lib
 ```
 
 ```
-cd /tmp && git clone https://gitlab.t-argos.ru/rkhromenok/posix_memalign && cd posix_memalign
+cd /tmp && git clone https://github.com/khromenokroman/lib_aio_write && cd lib_aio_write
 mkdir build && cd build && cmake .. && cmake --build .
 ```
+
+### Поумолчанию программа будет копировать файл /tmp/in.dat в /tmp/out.dat
+### файл in.dat можно создать например dd
